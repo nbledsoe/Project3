@@ -1,6 +1,7 @@
 @media only screen and (min-width: 500px){
 /* For mobile phones: */
-    body {width: 75%;}
+    body {width: 100%;}
+    body {height: auto;}
 }
 @media only screen and (min-width: 600px) {
     /* For tablets: */
