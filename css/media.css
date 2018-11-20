@@ -6,7 +6,7 @@
 @media only screen and (min-width: 600px) {
     /* For tablets: */
     body {width: 100%;}
-    .navbar {font-size: 20px}
+    .navbar {font-size: 22.5px}
 }
 @media only screen and (min-width: 768px) {
     /* For desktop: */
