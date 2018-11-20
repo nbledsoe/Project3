@@ -4,8 +4,8 @@ function initMap(){
   var crete = new google.maps.LatLng(41.4445,87.6314);
 //map setting parameters
   var mapOptions = {
-    center: new google.maps.LatLng(41.6573,87.6800),
-    zoom: 50,
+    center: {lat: -34.397, lng: 150.644},
+    zoom: 8,
   };
   var myMap = new google.maps.Map(el, mapOptions);
 
@@ -16,8 +16,8 @@ function initMap(){
   });
 
   var marker1 = new google.maps.Marker({
-    position: crete,
-    map: myMap,
+    position: crete;
+    map: myMap;
     animation:google.maps.Animation.BOUNCE,
   });
 
