@@ -1,0 +1,76 @@
+body {
+   background-color: lightblue;
+}
+.navbar {
+    text-align: center;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.navbar li {
+    display: inline;
+}
+.navbar li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+    font-family: 'Fugaz One', cursive;
+}
+.navbar li a:hover {
+    background-color: #255;
+}
+.header h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Sans-serif", Arial;
+    padding: 15px;
+}
+.resume {
+    background-color: white;
+    color: black;
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+  flex: 33.33%;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row {
+  display: flex;
+}
+.foot {
+    list-style-type: none;
+    text-align: center;
+    padding: 15px;
+    padding-top: 10px;
+}
+.paragraph {
+    background-color: white;
+    color: black;
+    padding: 15px;
+    width: 80%;
+    margin: auto;
+    font-family: 'Fira Sans', sans-serif;
+}
+.social {
+    text-align: center;
+}
+.social table{
+    text-align: center;
+    margin: auto;
+}
