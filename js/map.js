@@ -5,7 +5,7 @@ function initMap(){
 //map setting parameters
   var mapOptions = {
     center: new google.maps.LatLng(41.6573,87.6800),
-    zoom: 12,
+    zoom: 20,
   };
   var myMap = new google.maps.Map(el, mapOptions);
 
