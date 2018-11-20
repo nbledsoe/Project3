@@ -4,7 +4,7 @@ function myFunction() {
     x.setAttribute("src", "esports.jpg");
     x.setAttribute("width", "304");
     x.setAttribute("height", "228");
-    x.setAttribute("alt", "The Pulpit Rock");
+    x.setAttribute("alt", "Esports Arena");
     document.body.appendChild(x);
 }
 </script>
