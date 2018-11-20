@@ -1,4 +1,4 @@
-@media only screen and (min-width: 300px){
+@media only screen and (min-width: 50px){
 /* For mobile phones: */
     body {width: 100%;}
     .navbar {font-size: 25px}
@@ -6,8 +6,10 @@
 @media only screen and (min-width: 600px) {
     /* For tablets: */
     body {width: 100%;}
+    .navbar {font-size: 20px}
 }
 @media only screen and (min-width: 768px) {
     /* For desktop: */
     body {width: 100%;}
+    .navbar {font-size: 15}
 }
